@@ -6,7 +6,7 @@ This project is a Python-based Cloud Security Posture Management (CSPM) tool tha
 It helps identify security vulnerabilities in cloud infrastructure and improves overall cloud security posture.
 
 
-## 🚀 Features
+Features
 - IAM policy risk detection (over-permission analysis)
 - S3 bucket public access scanning
 - Modular scanner architecture
@@ -16,7 +16,9 @@ It helps identify security vulnerabilities in cloud infrastructure and improves 
 
 ---
 
-## 🏗️ Project Structure
+Project Structure
+
+```
 enterprise-cspm/
 ├── scanners/
 │   ├── ec2_scanner.py
@@ -31,10 +33,11 @@ enterprise-cspm/
 ├── main.py
 ├── .gitignore
 └── README.md
+```
 
 ---
 
-## 🛠️ Tech Stack
+Tech Stack
 - Python
 - AWS (IAM, S3)
 - Boto3
