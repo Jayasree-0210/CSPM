@@ -1,4 +1,7 @@
 venv/
 .env
 __pycache__/
+config.py
+credentials
+aws_credentials.txt
 *.pyc
